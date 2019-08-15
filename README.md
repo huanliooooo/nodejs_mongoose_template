@@ -14,3 +14,24 @@
 ### Biến môi trường
 
 Đối với mỗi project cần có file môi trường là `.env` được đặt ở thư mục root. Khi chạy các biến trong .env sẽ được load lên MEMORY để có thể gọi ở mọi file. (Lưu ý: File `.env` sẽ bị ignore khi đưa lên git, mọi thông số sẽ được chuyển sang .env.default để mọi người có thể update khi có thay đổi)
+
+### Install dependencies
+```
+$ npm install
+```
+
+### Install environments (first install)
+```
+$ npm install -g nodemon
+$ npm install -g pm2
+```
+
+### Run
+```
+$ npm run dev
+```
+
+### Deploy
+```
+$ npm run deploy
+```
